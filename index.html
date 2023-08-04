@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" width="device-width, initial-scale=1.0">
+        <meta name="description" content="The is just for practice">
+
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/logo.css">
+        <link rel="stylesheet" href="css/navigation.css">
+        <link rel="stylesheet" href="css/front_page.css">
+        <link rel="stylesheet" href="css/second_page.css">
+        <link rel="stylesheet" href="css/form.css">
+        <link rel="stylesheet" href="css/radio_button.css">
+        <title>Practice</title>
+    </head>
+
+    <body>
+        <header>
+            <div class="header">
+                <span class="logo_box">&nbsp;</span>
+                <img src="images/logo.png" alt="logo" class="logo">
+                
+                <nav class="navigation">
+                    <input type="checkbox" class="navigation_checkbox" id="navigation" name="check">
+
+                    <label for="navigation" class="navigation_button">
+                        <span class="navigation_icon"></span>
+                    </label>
+
+                    <div class="navigation_background"></div>
+
+                    <ul class="navigation_list">
+                        <li class="navigation_list-line"><a class="navigation_link" href="#">Profile</a></li>
+                        <li class="navigation_list-line"><a class="navigation_link" href="#">Email</a></li>
+                        <li class="navigation_list-line"><a class="navigation_link" href="#">Advertise</a></li>
+                        <li class="navigation_list-line"><a class="navigation_link" href="#">Know more about</a></li>
+                        <li class="navigation_list-line"><a class="navigation_link" href="#">Contact us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section class="section_front-page">
+            <div class="front-page">
+                <div class="front-page_box">
+                    <h4 class="front-page_text">front page</h4>
+                </div>
+            </div>
+        </section>
+
+        <section class="section_second-page">
+            <div class="second-page">
+                <div class="second-page_rectangle">
+                    <div class="radio_group">
+                        <input type="radio" class="radio_input" id="step-one" name="click">
+                        <label for="step-one" class="radio_label radio_label-1">
+                            <span class="radio_button"></span>
+                            <p class="radio_label-text">Step One</p>
+                            <h4 class="radio_label-heading">Your plan</h4>
+                        </label>
+
+                        <input type="radio" class="radio_input" id="step-two" name="click">
+                        <label for="step-two" class="radio_label radio_label-2">
+                            <span class="radio_button"></span>
+                            <p class="radio_label-text">Step Two</p>
+                            <h4 class="radio_label-heading">Select plan</h4>
+                        </label>
+
+                        <input type="radio" class="radio_input" id="step-three" name="click">
+                        <label for="step-three" class="radio_label radio_label-3">
+                            <span class="radio_button"></span>
+                            <p class="radio_label-text">Step Two</p>
+                            <h4 class="radio_label-heading">Add-ons</h4>
+                        </label>
+
+                        <input type="radio" class="radio_input" id="step-four" name="click">
+                        <label for="step-four" class="radio_label radio_label-4">
+                            <span class="radio_button"></span>
+                            <p class="radio_label-text">Step Two</p>
+                            <h4 class="radio_label-heading">Summary</h4>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form">
+                    <div class="form_group">
+                        <h3 class="form_heading">Personal info</h3>
+                        <p class="form_text">Please provide your fullname, email address and phone number.</p>
+
+                        <form class="form_box">
+                            <div class="form_personal">
+                                <label for="fullname" class="form_label"><h4 class="form_label-h4">Name</h4></label>
+                                <input type="text" class="form_input" id="fullname" name="Fullname" required placeholder="e.g Ghalib Hashim">
+                            </div>
+    
+                            <div class="form_personal">
+                                <label for="email" class="form_label"><h4 class="form_label-h4">Email Address</h4></label>
+                                <input type="email" class="form_input" id="email" name="Email" required placeholder="e.g hashimghalib02@gmail.com">
+                            </div>
+    
+                            <div class="form_personal">
+                                <label for="number" class="form_label"><h4 class="form_label-h4">Phone Number</h4></label>
+                                <input type="number" class="form_input" id="number" name="Number" required placeholder="e.g +234 803 459 2254">
+                            </div>
+
+                            <div class="next">
+                                <a href="#" class="next_link">Next Step &rarr;</a>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </body>
+</html>

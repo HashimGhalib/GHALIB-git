@@ -1,0 +1,30 @@
+
+
+.section_second-page {
+    margin: 0;
+    padding: 9rem 0;
+    border-width: 5rem;
+    background-color: #77777725;
+    
+}
+
+.second-page {
+    height: 75vh;
+    width: 60%;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 9px;
+    position: relative;
+}
+
+.second-page_rectangle {
+    height: 70vh;
+    width: 25%;
+    /* background-color: #ee0000; */
+    background-image: linear-gradient(to left bottom, rgb(214, 34, 34), #cf1212);
+    border-radius: 9px;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+}

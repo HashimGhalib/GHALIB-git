@@ -1,0 +1,18 @@
+.logo {
+    width: 10rem;
+    position: absolute;
+    top: 6rem;
+    left: 2rem;
+}
+
+.logo_box {
+    content: "";
+    display: inline-block;
+    height: 7rem;
+    width: 7rem;
+    background-color: #fff;
+    position: absolute;
+    top: 5.23rem;
+    left: 3.5rem;
+    border-radius: 4rem;
+}

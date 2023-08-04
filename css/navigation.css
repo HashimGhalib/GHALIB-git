@@ -1,0 +1,131 @@
+.navigation {
+    /* position: fixed; */
+    /* width: 97%; */
+}
+
+.navigation_button {
+    height: 3rem;
+    width: 3rem;
+    background-color: #fff;
+    border-radius: 50%;
+    position: fixed;
+    top: 3rem;
+    right: 4rem;
+    z-index: 1000;
+    box-shadow: 0 .15rem .3rem #0000005d;
+    cursor: pointer;
+}
+
+.navigation_background {
+    height: 2.5rem;
+    width: 2.5rem;
+    background-image: linear-gradient(to left bottom, white, #cf1212);
+    border-radius: 50%;
+    position: fixed;
+    top: 3.2rem;
+    right: 4.2rem;
+    z-index: 500;
+    transition: all .6s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.navigation_checkbox:checked ~ .navigation_background {
+    transform: scale(25);
+}
+
+.navigation_checkbox {
+    display: none;
+}
+
+.navigation_icon,
+.navigation_icon::before, 
+.navigation_icon::after {
+    display: inline-block;
+    height: 2px;
+    width: 1.5rem;
+    background-color: #afafaf;
+    position: fixed;
+    top: 4.45rem;
+    right: 4.75rem;
+    transition: all .2s;
+}
+
+.navigation_icon::before, 
+.navigation_icon::after {
+    content: "";
+    position: fixed;
+}
+
+.navigation_icon::before {
+    top: 4.05rem;
+}
+
+.navigation_icon::after {
+    top: 4.8rem;
+}
+
+.navigation_button:hover .navigation_icon:hover::before {
+    top: 4.0rem;
+}
+
+.navigation_button:hover .navigation_icon:hover::after {
+    top: 4.9rem;
+}
+
+.navigation_checkbox:checked + .navigation_button .navigation_icon {
+    background-color: transparent;
+}
+
+.navigation_checkbox:checked ~ .navigation_button .navigation_icon::before {
+    transform: rotate(135deg);
+    top: 4.4rem;
+}
+
+.navigation_checkbox:checked + .navigation_button .navigation_icon::after {
+    transform: rotate(-135deg);
+    top: 4.4rem;
+}
+
+.navigation_list {
+    position: fixed;
+    top: 4rem;
+    right: 10rem;
+    padding: 1rem 2rem;
+    margin: 0;
+    text-align: center;
+    z-index: 2000;
+    opacity: 0;
+    transition: all 1.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    width: 0;
+}
+
+.navigation_list-line {
+    list-style: none;
+    margin: 1rem;
+    
+
+    
+}
+
+.navigation_link:link, .navigation_link:visited {
+    display: inline-block;
+    color: #fff;
+    background-image: linear-gradient(125deg, transparent 0%, transparent 50%,#fff 50%);
+    background-size: 240%;
+    text-decoration: none;
+    font-size: 1.4rem;
+    padding: .4rem 1rem;
+    transition: all .6s;
+    
+}
+
+.navigation_link:hover, .navigation_link:active {
+    color: black;
+    background-position: 100%;
+    transform: translateX(.6rem);
+    
+}
+
+.navigation_checkbox:checked ~ .navigation_list {
+    opacity: 1;
+    width: 20%;
+}
