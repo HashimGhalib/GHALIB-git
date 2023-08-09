@@ -1,18 +1,19 @@
 .logo {
     width: 10rem;
     position: absolute;
-    top: 6rem;
-    left: 2rem;
+    top: 5rem;
+    left: 4.5rem;
+    z-index: 2;
 }
 
 .logo_box {
-    content: "";
-    display: inline-block;
+    display: block;
     height: 7rem;
     width: 7rem;
     background-color: #fff;
     position: absolute;
-    top: 5.23rem;
-    left: 3.5rem;
+    top: 4.25rem;
+    left: 6rem;
     border-radius: 4rem;
+    z-index: 1;
 }

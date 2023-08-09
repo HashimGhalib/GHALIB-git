@@ -1,9 +1,9 @@
 .section_front-page {
     height: 95vh;
     border-width: 5rem;
-    background-image: linear-gradient(to right bottom, #bd3e10c2, #ff0000), url(images/logo.png);
+    background-image: linear-gradient(to right bottom, #c75c35, #ff0000), url(images/logo.png);
     background-size: cover;
-    /* clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%); */
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
     
 }
 
