@@ -1,0 +1,44 @@
+.section_front-page {
+  height: 95vh;
+  border-width: 5rem;
+  background-image: linear-gradient(to right bottom, #0088beda, #055777);
+  background-size: cover;
+  background-position: center;
+  /* background-position: 100%; */
+  /* background-position-y: 105rem; */
+  /* -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%); */
+}
+
+.section_second-page {
+  margin-top: 0;
+  padding: 10rem 0;
+  border-width: 5rem;
+  background-color: #dfdfdf1e;
+}
+
+/* FOR PAGE THREE AND PAGE FIVE */
+
+.section-default-1 {
+  margin-top: 0;
+  height: 115vh;
+  border-width: 5rem;
+  background-image: linear-gradient(to right bottom, #0088beda, #055777);
+  background-size: 100%;
+  /* -webkit-clip-path: polygon(0 15vh, 100% 0, 100% 102vh, 0 100%); */
+  position: relative;
+}
+
+.section-four {
+  margin-top: 0;
+  padding: 10rem 0;
+  border-width: 5rem;
+  background-color: #dfdfdf1e;
+  /* -webkit-clip-path: polygon(0 14vh, 100% 1vh, 100% 139vh, 0 100%); */
+}
+
+.section-six {
+  margin-top: 0;
+  padding: 10rem 0 17rem;
+  border-width: 5rem;
+  background-color: #dfdfdf25;
+}

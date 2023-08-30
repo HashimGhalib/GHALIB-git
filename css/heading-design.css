@@ -1,0 +1,20 @@
+.h3-heading-design {
+  text-align: center;
+}
+
+.h3-inline {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  background-image: linear-gradient(to right bottom, #0088beda, #055777);
+  -webkit-background-clip: text;
+  color: transparent;
+  transition: all 0.6s;
+}
+
+.h3-inline:hover {
+  transform: skewX(-20deg) scale(1.2);
+  text-shadow: 0 0.2rem 0.4rem #055777;
+}

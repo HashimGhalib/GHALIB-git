@@ -1,83 +1,85 @@
-
 .radio_group {
-    position: absolute;
-    top: .8rem;
-    width: 50%;
+  position: absolute;
+  top: 0.8rem;
+  width: 50%;
 }
 
 .radio_label-1 {
-    position: absolute;
-    top: 1rem;
+  position: absolute;
+  top: 1rem;
 }
 
 .radio_label-2 {
-    position: absolute;
-    top: 4rem;
+  position: absolute;
+  top: 4rem;
 }
 
 .radio_label-3 {
-    position: absolute;
-    top: 7rem;
+  position: absolute;
+  top: 7rem;
 }
 
 .radio_label-4 {
-    position: absolute;
-    top: 10rem;
+  position: absolute;
+  top: 10rem;
 }
 
 .radio_button {
-    display: inline-block;
-    margin: 2rem 0 0 2.5rem;
-    height: 1.4rem;
-    width: 1.4rem;
-    border: solid #fff .08rem;
-    border-radius: 50%;
-    top: 0;
-    left: 0;
-    transform: translate(-50%, -50%);
-    position: relative;
+  display: inline-block;
+  margin: 2rem 0 0 2.5rem;
+  height: 1.4rem;
+  width: 1.4rem;
+  border: solid #fff 0.08rem;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  position: relative;
 }
 
 .radio_button::after {
-    content: "";
-    display: inline-block;
-    height: 0.8rem;
-    width: 0.8rem;
-    background-color: #ffff;
-    border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    opacity: 0;
+  content: "";
+  display: inline-block;
+  height: 0.7rem;
+  width: 0.7rem;
+  background-color: #ffff;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
 }
 
 .radio_label:not(:last-child) {
-    margin-bottom: .2rem;
+  margin-bottom: 0.2rem;
 }
 
 .radio_input:checked ~ .radio_label .radio_button::after {
-    opacity: 1;
+  opacity: 1;
+}
+
+.radio_input:checked .radio_input:not(:checked) {
+  opacity: 0;
 }
 
 .radio_label-text {
-    text-transform: uppercase;
-    font-size: .6rem;
-    transform: translateY(-2.3rem) translateX(4rem);
-    color: #ffff00;
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  transform: translateY(-2.3rem) translateX(4rem);
+  color: #ffff00;
 }
 
 .radio_label-heading {
-    text-transform: uppercase;
-    font-size: .1rem;
-    transform: translateY(-2.3rem) translateX(4rem);
-    color: #fff;
-    font-size: .75rem;
+  text-transform: uppercase;
+  font-size: 0.1rem;
+  transform: translateY(-2.3rem) translateX(4rem);
+  color: #fff;
+  font-size: 0.75rem;
 }
 
 .radio_input {
-    display: block;
-    opacity: 0;
-    visibility: hidden;
+  display: block;
+  opacity: 0;
+  visibility: hidden;
 }
-

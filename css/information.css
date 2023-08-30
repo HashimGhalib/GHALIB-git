@@ -1,0 +1,84 @@
+/* .bg-video {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  margin-top: -7.05rem;
+   -webkit-clip-path: polygon(0 15vh, 100% 0, 100% 102vh, 0 100%); 
+}
+
+.bg-video-content {
+  height: 100%;
+  width: 100%;
+  opacity: 0.65;
+} */
+
+.container-box {
+  padding-top: 13rem;
+  margin: 0 auto;
+  width: 976px;
+}
+
+.container-3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 80px;
+}
+
+.information {
+  display: inline-block;
+  height: 25rem;
+  width: 100%;
+  z-index: 1;
+}
+
+.information-1 {
+  color: #fff;
+}
+
+.information-heading {
+  font-size: 2.5rem;
+  margin-top: 1rem;
+}
+
+.information-paragraph {
+  margin-top: 2.5rem;
+  font-size: 1.3rem;
+  font-style: italic;
+}
+
+.information-link-box {
+  margin-top: 4rem;
+}
+
+.information-link:link,
+.information-link:visited {
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.4rem;
+  color: #0088be;
+  background-color: #fff;
+  padding: 0.8rem 1.8rem;
+  border-radius: 30px;
+}
+
+.information-link:hover,
+.information-link:active {
+  background-color: #504f4f;
+  color: #fff;
+}
+
+.information-2 {
+  /* background-image: linear-gradient(transparent, transparent),
+    url(../images/conversation-three.jpeg);
+  background-size: cover; */
+  border-radius: 12px;
+}
+
+.information-photo {
+  height: 100%;
+  width: 100%;
+  border-radius: 12px;
+  /* filter: brightness(120%); */
+}

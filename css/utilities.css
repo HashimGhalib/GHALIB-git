@@ -1,0 +1,38 @@
+.section-default-1 {
+  margin-top: 0;
+  height: 115vh;
+  border-width: 5rem;
+  background-image: linear-gradient(to right bottom, #0088beda, #055777);
+  background-size: 100%;
+  /* -webkit-clip-path: polygon(0 15vh, 100% 0, 100% 102vh, 0 100%); */
+  position: relative;
+}
+
+.second-page_rectangle {
+  height: 70vh;
+  width: 25%;
+  background-image: linear-gradient(to left bottom, #0088beda, #055777);
+  border-radius: 9px;
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+}
+
+.h3-inline {
+  background-image: linear-gradient(to right bottom, #0088beda, #055777);
+}
+
+.section_front-page,
+.container,
+.icon {
+  background-image: linear-gradient(to right bottom, #0088beda, #055777);
+}
+
+/* .container {
+  background-image: linear-gradient(to right bottom, #0088beda, #055777);
+}
+
+.icon {
+  background-image: linear-gradient(to right bottom, #0088beda, #055777);
+} */

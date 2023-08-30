@@ -1,19 +1,31 @@
 .logo {
-    width: 10rem;
-    position: absolute;
-    top: 5rem;
-    left: 4.5rem;
-    z-index: 2;
+  position: absolute;
+  top: 4.77rem;
+  left: 6.43rem;
+  z-index: 2;
+  border-radius: 50%;
+  height: 6rem;
+  /* width: 6rem; */
 }
 
 .logo_box {
-    display: block;
-    height: 7rem;
-    width: 7rem;
-    background-color: #fff;
-    position: absolute;
-    top: 4.25rem;
-    left: 6rem;
-    border-radius: 4rem;
-    z-index: 1;
+  display: block;
+  height: 7rem;
+  width: 7rem;
+  background-color: #fff;
+  position: absolute;
+  top: 4.25rem;
+  left: 6rem;
+  border-radius: 4rem;
+  z-index: 1;
+}
+
+.footer-logo {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+  border-radius: 50%;
+  height: 9rem;
+  /* width: 10%; */
+  /* box-shadow: 0 0 0.7rem rgba(255, 255, 255, 0.466); */
 }
